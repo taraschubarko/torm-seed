@@ -1,5 +1,5 @@
-import { Seeder } from '@/utils/torm-seed/seeder';
-import { ExampleSeeder } from '@/utils/torm-seed/example/example.seeder';
+import {Seeder} from "@/seeder";
+import {ExampleSeeder} from "@/example/example.seeder";
 
 export class ExampleDatabaseSeeder extends Seeder {
   run() {

@@ -10,7 +10,10 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": "./",
-    "noLib": false
+    "noLib": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

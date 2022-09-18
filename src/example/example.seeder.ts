@@ -1,5 +1,6 @@
-import { Seeder } from '@/utils/torm-seed/seeder';
-import { ExampleFactory } from '@/utils/torm-seed/example/example.factory';
+import {Seeder} from "@/seeder";
+import {ExampleFactory} from "@/example/example.factory";
+
 
 export class ExampleSeeder extends Seeder {
   run() {

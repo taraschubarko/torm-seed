@@ -1,7 +1,10 @@
 import { Injectable } from '@nestjs/common';
+// @ts-ignore
 import { DatabaseSeeder } from '@/database/seeds/database.seeder';
+// @ts-ignore
 import { getDataSource } from '@/config/typeorm.config';
-import {createFile} from "@/utils/torm-seed/storage.helper";
+import {createFile} from "@/storage.helper";
+
 
 @Injectable()
 export class SeederService {

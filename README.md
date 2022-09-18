@@ -6,7 +6,7 @@
   </a>
 </div>
 
-<h3 align="center">NestJS npm Package Starter</h3>
+<h3 align="center">NestJS Typeorm seeder</h3>
 
 <div align="center">
   <a href="https://nestjs.com" target="_blank">
@@ -20,7 +20,7 @@
 2. Run npm/yarn install
 
 ```bash
-cd nestjs-package-starter
+cd torm-seed
 npm install
 ```
 
@@ -34,7 +34,7 @@ Contributions welcome! See [Contributing](CONTRIBUTING.md).
 
 ## Author
 
-**John Biundo (Y Prospect on [Discord](https://discord.gg/G7Qnnhy))**
+**Taras Chubarko (Y Prospect on [Discord](https://discord.gg/G7Qnnhy))**
 
 ## License
 
